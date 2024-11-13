@@ -1,0 +1,23 @@
+.calculator-button {
+  font-size: large;
+  height: 10vmin;
+  border: solid 1px #4a5161;
+  background-color: transparent;
+  display: grid;
+  align-items: center;
+}
+
+
+.calculator-button:hover {
+  background-color: #687188;
+  cursor: pointer;
+}
+
+.calculator-button:active, .calculator-button:focus {
+  outline: none;
+  background-color: #4a5161;
+}
+
+.calculator-button[data-label="0"] {
+  grid-column: left-border / sec-div;
+}
